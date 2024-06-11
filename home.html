@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BY</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body class="bg-white">
+    <header class="header">
+      <div class="align triple">
+        <h1 class="h1"><a class="logo" href="home.html"></a></h1>
+        <div class="header__alarm">
+          <a class="btn-alarm" href="#none" onclick="alert('준비중입니다')"></a>
+        </div>
+      </div>
+    </header>
+    <main class="main pb150">
+      <section class="content">
+        <ul class="tab-type2">
+          <li><a class="btn-tab-type2 active" href="#none">홈</a></li>
+          <li><a class="btn-tab-type2" onclick="alert('준비중입니다')">컨설팅</a></li>
+          <li><a class="btn-tab-type2" onclick="alert('준비중입니다')">커뮤니티</a></li>
+        </ul>
+        <div class="img-wrap2 mt20 px16">
+          <img src="images/@img_by_card1.png" alt="">
+        </div>
+        <div class="title-main pt36 px16">
+          <h2 class="text-type4 fz20">창업 체험 서비스</h2>
+          <div class="text-type4 fz13 fw400 pt8">창업 시작 전 부담없이 체험해볼 수 있어요</div>
+        </div>
+        <div class="img-wrap2 mt20">
+          <img src="images/@img_by_card2.png" alt="">
+        </div>
+        <div class="img-wrap2">
+          <img src="images/@img_by_card3.png" alt="">
+        </div>
+        <ul class="list-type8 grid3 px16 pt10">
+          <li class="radius-10 btn-area ratio2">
+            <div class="text-type4">체험기업 명단</div>
+          </li>
+          <li class="radius-10 btn-area ratio2">
+            <div class="text-type4">체험 수기</div>
+          </li>
+          <li class="radius-10 btn-area ratio2">
+            <div class="text-type4">이벤트</div>
+          </li>
+        </ul>
+        
+      </section>
+      <div class="nav-foot">
+      <!-- <button class="btn-select" type="button" onclick="location.href='car-control.html'"></button> -->
+        <div class="notification align center vm px16 scroll-x" onclick="alert('준비중입니다')">
+            <p class="strong">공지</p>
+            <p>24년 하반기 정부지원사업 명단 업데이트(24.06.10)</p>
+        </div>
+        <nav class="nav-foot__cont">
+          <ul>
+            <li class="ico-home active"><a href="home.html">홈</a></li>
+            <li class="ico-diagnosis"><a href="diagnosis.html">진단</a></li>
+            <li class="ico-record"><a href="record.html">기록</a></li>
+            <li class="ico-referoom"><a href="referoom.html">자료실</a></li>
+            <li class="ico-monitor"><a href="monitor.html">모니터</a></li>
+            </ul>
+        </nav>
+      </div>
+    <script>
+      $('.btn-bell').click(function() {
+        // $('.btn-bell').removeClass('active')
+        $(this).toggleClass('active')
+      })
+    </script>
+    </main>
+  </body>
+  <script src="js/button.js"></script>
+  <script src="js/navFoot.js"></script>
+</html>

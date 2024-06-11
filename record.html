@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BM</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body class="bg-white">
+    <header class="header">
+      <div class="align triple">
+        <h1 class="h1"><a class="logo" href="#none" onclick="alert('준비중입니다')"></a></h1>
+        <div class="header__alarm">
+          <a class="btn-alarm" href="#none" onclick="alert('준비중입니다')"></a>
+        </div>
+      </div>
+    </header>
+    <main class="main pb150">
+      <section class="content">
+        <div class="img-wrap2 px16">
+          <img src="images/@img_calendar.png" alt="달력">
+        </div>
+        <div class="img-wrap2 px16 mt20">
+          <img src="images/@img_list.png" alt="">
+        </div>
+        <!-- <div class="list-type10-wrap bg-f3 radius-10 px16 py12 mt20">
+          <ul class="list-type10">
+            <li class="text-type4 fz12 area1"><span class="ico1">증상 발생</span></li>
+            <li class="text-type4 fz12 area1"><span class="ico2">내원</span></li>
+            <li class="text-type4 fz12 area1"><span class="ico3">입원</span></li>
+          </ul>
+          <ul class="list-type10 grid2 pt6">
+            <li class="text-type4 fz12 area2"><span class="ico4">투약 일정</span></li>
+            <li class="text-type4 fz12 area2"><span class="ico5">운동 기록</span></li>
+          </ul>
+        </div> -->
+        <div class="title-main pt25 px16 align vm both">
+          <div class="align vm">
+            <i class="ico-round green"></i>
+            <h2 class="h2 pl9">투약 일정</h2>
+          </div>
+          <a href="#none" class="link gray" onclick="alert('준비중입니다')">자세히보기</a>
+        </div>
+        <ul class="w50 list-type5 ml6 px16 mt15">
+          <li>
+            <div class="title">08:00</div>
+            <div>
+              <div class="cont pl10">멀티비타민</div>
+              <div class="cont pl10 pt12">처방약</div>
+            </div>
+          </li>
+          <li class="pt15">
+            <div class="title">12:00</div>
+            <div class="cont pl10">처방약</div>
+          </li>
+          <li class="pt15">
+            <div class="title">18:00</div>
+            <div class="cont pl10">처방약</div>
+          </li>
+        </ul>
+        <div class="px16 mt20"><div class="border-1 mx16"></div></div>
+        <div class="title-main pt25 px16 align vm both">
+          <div class="align vm">
+            <i class="ico-round yellow"></i>
+            <h2 class="h2 pl9">입원</h2>
+          </div>
+          <a href="#none" class="link gray" onclick="alert('준비중입니다')">자세히보기</a>
+        </div>
+        <ul class="list-type5 ml6 px16 mt15">
+          <li>
+            <div class="title">14:38</div>
+            <div>
+              <div class="cont pl10">비엠대학병원 응급실</div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <div class="nav-foot">
+        <nav class="nav-foot__cont">
+          <ul>
+            <li class="ico-home"><a href="home.html">홈</a></li>
+            <li class="ico-diagnosis"><a href="diagnosis.html">진단</a></li>
+            <li class="ico-record active"><a href="record.html">기록</a></li>
+            <li class="ico-referoom"><a href="referoom.html">자료실</a></li>
+            <li class="ico-monitor"><a href="monitor.html">모니터</a></li>
+            </ul>
+        </nav>
+      </div>
+    <script>
+      $('.btn-area').click(function () {
+        // $('.btn-area').removeClass('active');
+        $(this).toggleClass('active');
+      })
+    </script>
+    </main>
+  </body>
+  <script src="js/button.js"></script>
+  <script src="js/navFoot.js"></script>
+</html>
