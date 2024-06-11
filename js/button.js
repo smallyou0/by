@@ -29,10 +29,10 @@ $(".btn-business").click(function () {
   $(this).toggleClass("active");
 });
 // weighing-confirm-list.html
-$(".btn-tab-type2").click(function () {
-  $(".btn-tab-type2").removeClass("active");
-  $(this).addClass("active");
-});
+// $(".btn-tab-type2").click(function () {
+//   $(".btn-tab-type2").removeClass("active");
+//   $(this).addClass("active");
+// });
 $(".table-type2 tr").click(function () {
   // 현재 행이 이미 활성화되어 있는지 확인
   var isActive = $(this).hasClass("active");
@@ -85,10 +85,10 @@ sendButtons.forEach((closeEl) => {
 });
 
 // weighing confirm list
-$(".btn-tab-type2").click(function () {
-  $(".btn-tab-type2").removeClass("active");
-  $(this).toggleClass("active");
-});
+// $(".btn-tab-type2").click(function () {
+//   $(".btn-tab-type2").removeClass("active");
+//   $(this).toggleClass("active");
+// });
 $(".tab-type2 li:nth-child(1) a").click(function () {
   $(".table-list").removeClass("active");
   $("#tableTab1").addClass("active");

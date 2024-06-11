@@ -62,4 +62,9 @@
   .nav-foot__cont ul li.ico-chat {
     background: url("../images/ico_chat.svg") no-repeat center 0 / 20px;
   }
+  .notification {
+    &.center {
+      /* justify-content: left; */
+    }
+  }
 }
